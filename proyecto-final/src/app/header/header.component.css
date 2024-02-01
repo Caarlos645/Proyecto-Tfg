@@ -2,64 +2,15 @@
   max-height: 120px;
 }
 
-#li-header{
-  color: white;
+#li-usuario-cesta{
   list-style: none;
   display: flex;
-}
-
-#li-header li:not(:first-child) {
-  margin-top: 25px;
-  margin-left: 50px ;
-}
-
-#div-buscador {
-  display: flex;
-  width: 630px;
-}
-
-span {
-  margin-right: 1px;
+  color: white;
   margin-top: 10px;
 }
 
-li:hover:not(:nth-child(5)) {
-  border-radius: 10px;
-  background-color: #1f2121;
-}
-
-@media screen and (max-width:768px) {
-#icono {
-  max-height: 120px;
-}
-
-#li-header {
+a {
   color: white;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap; /* Añadido para manejar el wrap en pantallas pequeñas */
-}
-
-#li-header li:not(:first-child) {
-  margin-top: 10px; /* Reducido el margen superior en pantallas pequeñas */
-  margin-left: 20px; /* Reducido el margen izquierdo en pantallas pequeñas */
-}
-
-#div-buscador {
-  display: flex;
-  flex-direction: column; /* Cambiado a columna en pantallas pequeñas */
-  width: 100%; /* Ancho completo en pantallas pequeñas */
-  margin-top: 10px; /* Añadido margen superior en pantallas pequeñas */
-}
-
-.form-control {
-  width: 100%;
-  margin-bottom: 10px; /* Aumentado el margen inferior en pantallas pequeñas */
-}
-
-span {
-  margin-right: 5px; /* Ajustado el margen derecho */
-  margin-top: 5px; /* Ajustado el margen superior */
 }
 
 li:hover:not(:nth-child(5)) {
@@ -67,9 +18,10 @@ li:hover:not(:nth-child(5)) {
   background-color: #1f2121;
 }
 
-/* Estilos adicionales para el botón en pantallas pequeñas */
-.btn-outline-secondary {
-  width: 100%;
+#li-usuario-cesta span {
+  margin-top: 10px;
+  font-size: 30px;
 }
 
-}
+
+

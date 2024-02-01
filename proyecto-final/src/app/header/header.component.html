@@ -1,24 +1,41 @@
 <div class="flex flex-wrap justify-between items-center py-4 px-5 gap-4 lg:py-5 lg:px-7 lg:gap-8 bg-black">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light bg-black">
+  <a class="navbar-brand" href="#"><img id="icono" src="../../assets/images/logo.png" alt=""></a>
+  <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <ul id="li-header">
-   <li><img id="icono" src="../../assets/logo.png" width="150px"></li>
-    <li>Quiénes somos</li>
-    <li>Vende tu tech</li>
-    <li>Ayuda</li>
-    <li>
-      <div id="div-buscador">
-      <input type="text" class="form-control" placeholder="¿Qué andas buscando?" aria-label="Recipient's username" aria-describedby="basic-addon2">
-        <button class="btn btn-outline-secondary bg-light" type="button">Buscar</button>
-      </div>
-      </li>
-      <li><span class="material-symbols-outlined">
-        person
-        </span></li>
-        <li><span class="material-symbols-outlined">
-          weight
-          </span></li>
-  </ul>
-</div>
 
+  <div class="collapse navbar-collapse align-items-md-baseline justify-content-end" id="navbarSupportedContent">
+
+
+    <ul id="li-header" class="navbar-nav m-auto m-lg">
+      <li class="nav-item" id="li">
+        <a class="nav-link" href="#">Quiénes somos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Vende tu tech</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ayuda</a>
+      </li>
+    </ul>
+
+
+      <input id="id-input" class="form-control mr-sm-2 w-50 m1-3" type="search" placeholder="¿Qué andas buscando?" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+
+  </div>
+
+    <ul id="li-usuario-cesta">
+  <li><span class="material-symbols-outlined">
+    person
+    </span></li>
+    <li><span class="material-symbols-outlined">
+      weight
+      </span></li>
+    </ul>
+
+
+
+
+</nav>
