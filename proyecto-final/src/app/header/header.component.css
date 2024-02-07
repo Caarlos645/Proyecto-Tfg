@@ -25,3 +25,7 @@ li:hover:not(:nth-child(5)) {
 
 
 
+#li-usuario-cesta {
+  margin-top: 10px;
+  font-size: 30px;
+}
