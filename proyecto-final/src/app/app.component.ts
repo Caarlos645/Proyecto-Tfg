@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
-import { ListaProductosComponent } from './lista-productos/lista-productos.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ListaProductosComponent } from './components/lista-productos/lista-productos.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,9 @@ import { ListaProductosComponent } from './lista-productos/lista-productos.compo
   imports: [
     RouterOutlet,
     HeaderComponent,
-    ListaProductosComponent
+    ListaProductosComponent,
+    FooterComponent,
+
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

@@ -1,6 +1,6 @@
 <div class="flex flex-wrap justify-between items-center py-4 px-5 gap-4 lg:py-5 lg:px-7 lg:gap-8 bg-black">
 <nav class="navbar navbar-expand-lg navbar-light bg-black">
-  <a class="navbar-brand" href="#"><img id="icono" src="/assets/images/logo.png" alt="" width="150px"></a>
+  <a class="navbar-brand" routerLink="/"><img id="icono" src="/assets/images/logo.png" alt="" width="150px"></a>
 
 
   <div class="collapse navbar-collapse align-items-md-baseline justify-content-end" id="navbarSupportedContent">
@@ -8,7 +8,7 @@
 
     <ul id="li-header" class="navbar-nav m-auto m-lg">
       <li class="nav-item" id="li">
-        <a class="nav-link" href="#">Quiénes somos</a>
+        <a class="nav-link" routerLink="/quienes-somos">Quiénes somos</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Vende tu tech</a>
@@ -26,9 +26,9 @@
 
 
     <ul id="li-usuario-cesta">
-  <li><span class="material-symbols-outlined">
+  <li><a routerLink="/login"> <span class="material-symbols-outlined">
     person
-    </span></li>
+    </span></a></li>
     <li><span class="material-symbols-outlined">
       weight
       </span></li>
