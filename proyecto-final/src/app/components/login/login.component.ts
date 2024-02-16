@@ -8,5 +8,14 @@ import { Component } from '@angular/core';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
+isActive: boolean = false;
+
+activar () :void {
+  this.isActive = true;
+}
+
+desactivar() :void {
+  this.isActive = false;
+}
 
 }

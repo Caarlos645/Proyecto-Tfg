@@ -5,17 +5,17 @@
 #li-usuario-cesta{
   list-style: none;
   display: flex;
-  color: white;
+  color: black;
   margin-top: 10px;
 }
 
 a {
-  color: white;
+  color: black;
 }
 
 li:hover:not(:nth-child(5)) {
   border-radius: 10px;
-  background-color: #1f2121;
+  background-color: #ebf7f7;
 }
 
 #li-usuario-cesta span {
@@ -30,6 +30,15 @@ li:hover:not(:nth-child(5)) {
   font-size: 30px;
 }
 
-body {
-  scrollbar-color: blue lightblue;
+input#id-input {
+  input#id-input{
+    width: 50%;
+  }
 }
+
+@media (max-width: 426px) {
+  input#id-input{
+    width: 100% !important;
+  }
+}
+
